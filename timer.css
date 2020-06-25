@@ -1,0 +1,38 @@
+.animDone {
+  animation: doneButton 1s infinite;
+}
+.font {
+  font-size: x-large;
+}
+.txtAnimDone {
+  animation: doneTxt 1s infinite;
+}
+.animWarning {
+  animation: warningButton 1s infinite;
+}
+.txtAnimWarning {
+  animation: warningTxt 1s infinite;
+}
+.btn {
+  margin: 10px;
+}
+@keyframes doneTxt {
+  50% {
+    color: red;
+  }
+}
+@keyframes doneButton {
+  50% {
+    background-color: red;
+  }
+}
+@keyframes warningButton {
+  50% {
+    background-color: yellow;
+  }
+}
+@keyframes warningTxt {
+  50% {
+    color: yellow;
+  }
+}
